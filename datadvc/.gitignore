@@ -1,3 +1,6 @@
 # /data.csv
 *.dll
 *.csv
+# Ignore Python virtual environment folders
+venv/
+jupyter_env/

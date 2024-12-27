@@ -9,3 +9,6 @@ __pycache__/
 .env
 .DS_Store
 node_modules/
+# Ignore Python virtual environment folders
+venv/
+jupyter_env/
