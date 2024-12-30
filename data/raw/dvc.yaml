@@ -1,0 +1,9 @@
+# Example pipeline for preprocessing Task 2 data
+dvc run -n preprocess_task2 \
+  -d data/raw/task2_data.csv \
+  -o data/processed/task2_preprocessed.csv \
+  python scripts/preprocess.py --input data/raw/task2_data.csv --output data/processed/task2_preprocessed.csv
+•	-n: Name of the stage.
+•	-d: Dependencies (e.g., input data).
+•	-o: Outputs (e.g., processed data).
+•	python scripts/preprocess.py: The script performing the task.
